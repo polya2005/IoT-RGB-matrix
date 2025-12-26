@@ -1783,7 +1783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -1899,28 +1899,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb4")
+			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb5")
 		)
 		(pin "1"
-			(uuid "40c656e3-d507-4e3e-a920-b55b16517758")
+			(uuid "40c656e3-d507-4e3e-a920-b55b16517759")
 		)
 		(pin "6"
-			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c6")
+			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c7")
 		)
 		(pin "7"
-			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd55")
+			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd56")
 		)
 		(pin "5"
-			(uuid "8241d593-ff79-406c-9cfe-90592eea4241")
+			(uuid "8241d593-ff79-406c-9cfe-90592eea4242")
 		)
 		(pin "3"
-			(uuid "fb6afe83-70bb-42c8-b578-309355b37327")
+			(uuid "fb6afe83-70bb-42c8-b578-309355b37328")
 		)
 		(pin "4"
-			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01dee")
+			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01def")
 		)
 		(pin "8"
-			(uuid "c3fac0d1-eda0-46fd-9773-4b71b6171228")
+			(uuid "c3fac0d1-eda0-46fd-9773-4b71b6171229")
 		)
 		(instances
 			(project ""
@@ -1959,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 102.87 121.92 0)
 			(effects
 				(font
@@ -1987,28 +1987,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb4")
+			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb6")
 		)
 		(pin "1"
-			(uuid "40c656e3-d507-4e3e-a920-b55b16517758")
+			(uuid "40c656e3-d507-4e3e-a920-b55b1651775a")
 		)
 		(pin "6"
-			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c6")
+			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c8")
 		)
 		(pin "7"
-			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd55")
+			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd57")
 		)
 		(pin "5"
-			(uuid "8241d593-ff79-406c-9cfe-90592eea4241")
+			(uuid "8241d593-ff79-406c-9cfe-90592eea4243")
 		)
 		(pin "3"
-			(uuid "fb6afe83-70bb-42c8-b578-309355b37327")
+			(uuid "fb6afe83-70bb-42c8-b578-309355b37329")
 		)
 		(pin "4"
-			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01dee")
+			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01df0")
 		)
 		(pin "8"
-			(uuid "c3fac0d1-eda0-46fd-9773-4b71b6171228")
+			(uuid "c3fac0d1-eda0-46fd-9773-4b71b617122a")
 		)
 		(instances
 			(project ""
@@ -2047,7 +2047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -2075,28 +2075,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb4")
+			(uuid "57f08ab8-58f5-4db6-a10c-3188fc974fb7")
 		)
 		(pin "1"
-			(uuid "40c656e3-d507-4e3e-a920-b55b16517758")
+			(uuid "40c656e3-d507-4e3e-a920-b55b1651775b")
 		)
 		(pin "6"
-			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c6")
+			(uuid "d6eefe45-5479-49e1-901b-10a62c4929c9")
 		)
 		(pin "7"
-			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd55")
+			(uuid "dfd8e625-4b82-47e1-9673-f4185e58cd58")
 		)
 		(pin "5"
-			(uuid "8241d593-ff79-406c-9cfe-90592eea4241")
+			(uuid "8241d593-ff79-406c-9cfe-90592eea4244")
 		)
 		(pin "3"
-			(uuid "fb6afe83-70bb-42c8-b578-309355b37327")
+			(uuid "fb6afe83-70bb-42c8-b578-309355b3732a")
 		)
 		(pin "4"
-			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01dee")
+			(uuid "20cc46e2-8f61-498c-91f9-97dfa3d01df1")
 		)
 		(pin "8"
-			(uuid "c3fac0d1-eda0-46fd-9773-4b71b6171228")
+			(uuid "c3fac0d1-eda0-46fd-9773-4b71b617122b")
 		)
 		(instances
 			(project ""
