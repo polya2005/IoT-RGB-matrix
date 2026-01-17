@@ -18,12 +18,7 @@
   NOP8;       \
   NOP4;
 
-const gpio_num_t MATRIX_SER_PINS[SUBMATRIX_PER_COL][3] = {
-    {MATRIX_SER_PIN_0_R, MATRIX_SER_PIN_0_G, MATRIX_SER_PIN_0_B},
-    {MATRIX_SER_PIN_1_R, MATRIX_SER_PIN_1_G, MATRIX_SER_PIN_1_B},
-    {MATRIX_SER_PIN_2_R, MATRIX_SER_PIN_2_G, MATRIX_SER_PIN_2_B},
-    {MATRIX_SER_PIN_3_R, MATRIX_SER_PIN_3_G, MATRIX_SER_PIN_3_B},
-    {MATRIX_SER_PIN_4_R, MATRIX_SER_PIN_4_G, MATRIX_SER_PIN_4_B}};
+extern const gpio_num_t MATRIX_SER_PINS[SUBMATRIX_PER_COL][3];
 
 void MatrixInit(void) {
   // Initialize GPIO pins for demultiplexer control

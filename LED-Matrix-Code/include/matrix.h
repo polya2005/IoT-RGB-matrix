@@ -23,22 +23,6 @@
 #define SRCLK_PIN 22
 #define RCLK_PIN 23
 
-#define MATRIX_SER_PIN_0_R 3
-#define MATRIX_SER_PIN_0_G 4
-#define MATRIX_SER_PIN_0_B 5
-#define MATRIX_SER_PIN_1_R 6
-#define MATRIX_SER_PIN_1_G 7
-#define MATRIX_SER_PIN_1_B 8
-#define MATRIX_SER_PIN_2_R 9
-#define MATRIX_SER_PIN_2_G 10
-#define MATRIX_SER_PIN_2_B 11
-#define MATRIX_SER_PIN_3_R 12
-#define MATRIX_SER_PIN_3_G 13
-#define MATRIX_SER_PIN_3_B 15
-#define MATRIX_SER_PIN_4_R 18
-#define MATRIX_SER_PIN_4_G 19
-#define MATRIX_SER_PIN_4_B 20
-
 /**
  * @brief Initializes the LED matrix hardware.
  *
