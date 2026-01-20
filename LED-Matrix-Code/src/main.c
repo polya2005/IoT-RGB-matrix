@@ -18,10 +18,24 @@
 #define MATRIX_SER_PIN_4_B 20
 
 const gpio_num_t MATRIX_SER_PINS[SUBMATRIX_PER_COL][3] = {
-    {MATRIX_SER_PIN_0_R, MATRIX_SER_PIN_0_G, MATRIX_SER_PIN_0_B},
-    {MATRIX_SER_PIN_1_R, MATRIX_SER_PIN_1_G, MATRIX_SER_PIN_1_B},
-    {MATRIX_SER_PIN_2_R, MATRIX_SER_PIN_2_G, MATRIX_SER_PIN_2_B},
-    {MATRIX_SER_PIN_3_R, MATRIX_SER_PIN_3_G, MATRIX_SER_PIN_3_B},
-    {MATRIX_SER_PIN_4_R, MATRIX_SER_PIN_4_G, MATRIX_SER_PIN_4_B}};
+    {MATRIX_SER_PIN_0_R, MATRIX_SER_PIN_0_G, MATRIX_SER_PIN_0_B}};  //,
+// {MATRIX_SER_PIN_1_R, MATRIX_SER_PIN_1_G, MATRIX_SER_PIN_1_B},
+// {MATRIX_SER_PIN_2_R, MATRIX_SER_PIN_2_G, MATRIX_SER_PIN_2_B},
+// {MATRIX_SER_PIN_3_R, MATRIX_SER_PIN_3_G, MATRIX_SER_PIN_3_B},
+// {MATRIX_SER_PIN_4_R, MATRIX_SER_PIN_4_G, MATRIX_SER_PIN_4_B}};
 
-void app_main() { MatrixInit(); }
+static uint8_t matrixBuffer[MATRIX_HEIGHT][MATRIX_WIDTH][3] = {0};
+
+void app_main() {
+  MatrixInit();
+  for (int row = 0; row < MATRIX_HEIGHT; row++) {
+    for (int col = 0; col < MATRIX_WIDTH; col++) {
+      matrixBuffer[row][col][0] = 255;  // Red
+      matrixBuffer[row][col][1] = 0;    // Green
+      matrixBuffer[row][col][2] = 0;    // Blue
+    }
+  }
+  while (1) {
+    MatrixDraw((const uint8_t***)matrixBuffer);
+  }
+}

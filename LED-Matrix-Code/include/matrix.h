@@ -11,8 +11,8 @@
  * One submatrix is defined as 8x8 LEDs. The total matrix size must be a
  * multiple of 8 in both dimensions.
  */
-#define MATRIX_WIDTH 40
-#define MATRIX_HEIGHT 40
+#define MATRIX_WIDTH 8
+#define MATRIX_HEIGHT 8
 #define SUBMATRIX_PER_ROW (MATRIX_WIDTH >> 3)
 #define SUBMATRIX_PER_COL (MATRIX_HEIGHT >> 3)
 
