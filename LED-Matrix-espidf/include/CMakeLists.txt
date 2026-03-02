@@ -1,0 +1,1 @@
+add_compile_definitions(USE_MATRIX_ASM=1)
