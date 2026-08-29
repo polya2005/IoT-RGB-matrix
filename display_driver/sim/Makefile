@@ -10,6 +10,8 @@ all: $(TESTS)
 
 clean:
 	rm -rf obj_dir
+	rm -f $(TESTS)
+	rm -f *.vcd
 	echo "Simulation files cleaned."
 
 list-tests:
