@@ -29,7 +29,7 @@ list:
 	@echo "  <test_name> - Build a specific test"
 	@echo "  run_<test_name> - Run a specific test"
 
-$(TESTS): $(SRCS)
+$(TESTS): $(SRCS) files.f
 	verilator --trace --binary -j 0 -f $(FILELIST_DIR) --top $@ $@.sv
 	mv obj_dir/V$@ $@
 
