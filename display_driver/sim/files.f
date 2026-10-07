@@ -5,5 +5,6 @@
 ../src/interfaces/spi.sv
 ../src/interfaces/bsram_read.sv
 ../src/spi_slave.sv
+../src/spi_processor.sv
 ../src/output_controller.sv
 ../src/top_level.sv

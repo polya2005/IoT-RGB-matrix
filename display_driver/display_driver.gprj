@@ -7,9 +7,12 @@
     <FileList>
         <File path="src/bsram_dp/bsram_dp.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/include/spi_commands.sv" type="file.verilog" enable="1"/>
         <File path="src/interfaces/bsram_read.sv" type="file.verilog" enable="1"/>
+        <File path="src/interfaces/bsram_write.sv" type="file.verilog" enable="1"/>
         <File path="src/interfaces/command_bus.sv" type="file.verilog" enable="1"/>
         <File path="src/interfaces/spi.sv" type="file.verilog" enable="1"/>
+        <File path="src/output_controller.sv" type="file.verilog" enable="1"/>
         <File path="src/spi_processor.sv" type="file.verilog" enable="1"/>
         <File path="src/spi_slave.sv" type="file.verilog" enable="1"/>
         <File path="src/top_level.sv" type="file.verilog" enable="1"/>
