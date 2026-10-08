@@ -1,1 +1,2 @@
+add_compile_definitions(USE_MATRIX_BITBANG=0)
 add_compile_definitions(USE_MATRIX_ASM=1)

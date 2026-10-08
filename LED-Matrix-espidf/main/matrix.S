@@ -1,4 +1,4 @@
-#if USE_MATRIX_ASM
+#if !USE_MATRIX_BITBANG && !USE_MATRIX_ASM
 #include "matrix_const_macros.h"
 
     .equ     SUBROW_INIT, (7 << DEMUX_A0_PIN)
@@ -117,4 +117,4 @@ end_column_loop:
 end_subrow_loop:
     sb       t1, 0(a5) // Increment subframe byte
     ret
-#endif
+#endif // !USE_MATRIX_BITBANG && !USE_MATRIX_ASM

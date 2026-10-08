@@ -1,14 +1,17 @@
 // Copyright (c) 2026 Boonyakorn Thanpanit
 #include "matrix.h"
 
-#include "driver/gpio.h"
 #include "matrix_const_macros.h"
 
+#if USE_MATRIX_BITBANG
+#include "driver/gpio.h"
 extern const gpio_num_t MATRIX_SER_PINS[SUBMATRIX_PER_COL][3];
 
 #if USE_MATRIX_ASM
-
 uint32_t MATRIX_SER_PINS_BIT[SUBMATRIX_PER_COL][3];
+
+#define DEMUX_A1_PIN (DEMUX_A0_PIN + 1)
+#define DEMUX_A2_PIN (DEMUX_A0_PIN + 2)
 #else
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -29,11 +32,8 @@ uint32_t MATRIX_SER_PINS_BIT[SUBMATRIX_PER_COL][3];
   NOP8;       \
   NOP4;
 
-#define DEMUX_A1_PIN (DEMUX_A0_PIN + 1)
-#define DEMUX_A2_PIN (DEMUX_A0_PIN + 2)
-
 static uint32_t* const GPIO_OUT_REGISTER = (uint32_t*)(GPIO_OUT_REG);
-#endif
+#endif  // defined(USE_MATRIX_ASM) && USE_MATRIX_ASM
 
 void MatrixInit(void) {
   // Initialize GPIO pins for demultiplexer control
@@ -103,4 +103,11 @@ void MatrixDraw(const uint8_t*** buffer) {
     // vTaskDelay(1);
   }
 }
-#endif
+#endif  // !defined(USE_MATRIX_ASM) || !USE_MATRIX_ASM
+#else
+#include "esp_err.h"
+void MatrixInit(void) {
+}
+void MatrixDraw(const uint8_t*** buffer) {
+}
+#endif  // defined(USE_MATRIX_BITBANG) && USE_MATRIX_BITBANG

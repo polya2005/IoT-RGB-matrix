@@ -1,21 +1,26 @@
 // Copyright (c) 2026 Boonyakorn Thanpanit
 #pragma once
 
+#define MATRIX_WIDTH 8
+#define MATRIX_HEIGHT 8
+
+#if USE_MATRIX_BITBANG
 /*
  * Matrix dimensions
  *
  * One submatrix is defined as 8x8 LEDs. The total matrix size must be a
  * multiple of 8 in both dimensions.
  */
-#define MATRIX_WIDTH 8
-#define MATRIX_HEIGHT 8
 #define SUBMATRIX_PER_ROW (MATRIX_WIDTH >> 3)
 #define SUBMATRIX_PER_COL (MATRIX_HEIGHT >> 3)
 
 // Pin definitions (may change later)
 #define DEMUX_A0_PIN 0
-// #define DEMUX_A1_PIN (DEMUX_A0_PIN + 1)
-// #define DEMUX_A2_PIN (DEMUX_A0_PIN + 2)
+#if !USE_MATRIX_ASM
+#define DEMUX_A1_PIN (DEMUX_A0_PIN + 1)
+#define DEMUX_A2_PIN (DEMUX_A0_PIN + 2)
+#endif  // !USE_MATRIX_ASM
+
 #define DEMUX_BIT_MASK (~(7 << DEMUX_A0_PIN))
 #define SRCLK_PIN 22
 #define RCLK_PIN 23
@@ -35,3 +40,6 @@
 #define MATRIX_SER_PIN_4_R 18
 #define MATRIX_SER_PIN_4_G 19
 #define MATRIX_SER_PIN_4_B 20
+#else
+
+#endif  // USE_MATRIX_BITBANG
