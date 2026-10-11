@@ -3130,16 +3130,6 @@
 		)
 		(uuid "4283298e-0ac5-4ccd-a321-5aec1ed7706a")
 	)
-	(label "ROWSEL2"
-		(at 113.03 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4613d124-41d0-4bea-a9d2-022cb589b043")
-	)
 	(label "ROWSEL0"
 		(at 33.02 140.97 0)
 		(effects
@@ -3159,6 +3149,16 @@
 			(justify left bottom)
 		)
 		(uuid "51260c92-0530-4b3f-8b3d-bbadcd286a06")
+	)
+	(label "ROWSEL0"
+		(at 113.03 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51fb7e2d-17c4-4c22-8a2d-71f716127258")
 	)
 	(label "G1"
 		(at 182.88 43.18 0)
@@ -3241,14 +3241,14 @@
 		(uuid "6d46750e-e786-4fb3-bb98-4090ec32d56c")
 	)
 	(label "ROWSEL1"
-		(at 113.03 69.85 180)
+		(at 113.03 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "71f90d72-c783-45f0-9cfd-dad676474204")
+		(uuid "76032eda-cd35-4116-a9f0-19f3c9880a4a")
 	)
 	(label "R3"
 		(at 33.02 148.59 0)
@@ -3259,16 +3259,6 @@
 			(justify left bottom)
 		)
 		(uuid "794fa4eb-ee59-42de-9031-7c1e5d3bc015")
-	)
-	(label "SRCLK"
-		(at 113.03 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80a12117-2142-4845-9100-f68702c70e69")
 	)
 	(label "RCLK"
 		(at 33.02 106.68 0)
@@ -3440,6 +3430,16 @@
 		)
 		(uuid "bd814ea2-c719-48af-b6a3-bac34b18f557")
 	)
+	(label "RCLK"
+		(at 113.03 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0cc67b4-8332-4d16-b626-f77fcd3b2898")
+	)
 	(label "SRCLK"
 		(at 33.02 104.14 0)
 		(effects
@@ -3499,16 +3499,6 @@
 			(justify right bottom)
 		)
 		(uuid "df761931-bec2-4869-bcde-31be9941499f")
-	)
-	(label "ROWSEL0"
-		(at 113.03 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e263bdc2-2601-44f0-b7b6-4ae4f75e85f7")
 	)
 	(label "B1"
 		(at 182.88 40.64 0)
@@ -3610,15 +3600,25 @@
 		)
 		(uuid "f8683acb-0711-40dd-aae4-effcd2b93312")
 	)
-	(label "RCLK"
-		(at 113.03 64.77 180)
+	(label "ROWSEL2"
+		(at 113.03 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f9caed37-3ba9-47c6-aff2-22866b7d14dd")
+		(uuid "faad1389-7b8a-410a-b63c-a42e4350211e")
+	)
+	(label "SRCLK"
+		(at 113.03 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb00024c-b307-47a2-b393-58b3850fcd5e")
 	)
 	(label "R2"
 		(at 182.88 38.1 0)
