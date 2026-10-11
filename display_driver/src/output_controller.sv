@@ -71,7 +71,7 @@ module output_controller (
           column_index <= COLUMN_COUNT - 1;
 
         end else begin
-          column_index <= column_index - 1;
+          column_index <= column_index - column_index_t'(1);
         end
       end
     end
