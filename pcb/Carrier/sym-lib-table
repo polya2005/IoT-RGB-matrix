@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Tang_Nano_9K") (type "KiCad") (uri "${KIPRJMOD}/Tang_Nano_9K.kicad_sym") (options "") (descr ""))
+)
