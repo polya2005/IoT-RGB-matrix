@@ -36,6 +36,10 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+# Fabrication outputs
+*.gbr
+*.gbrjob
+*.drl
 
 # From plugins
 fabrication-toolkit-options.json
