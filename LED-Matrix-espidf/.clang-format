@@ -1,4 +1,3 @@
 BasedOnStyle: Google
-SortIncludes: false
-AccessModifierOffset: -2
+SortIncludes: Never
 IndentWidth: 2
