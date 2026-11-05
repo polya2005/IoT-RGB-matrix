@@ -1,0 +1,61 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Thu 11 05 14:20:19 2026
+
+IO_LOC "matrix_row_sel[2]" 29;
+IO_PORT "matrix_row_sel[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_row_sel[1]" 28;
+IO_PORT "matrix_row_sel[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_row_sel[0]" 27;
+IO_PORT "matrix_row_sel[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_b[4]" 30;
+IO_PORT "matrix_ser_b[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_b[3]" 40;
+IO_PORT "matrix_ser_b[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_b[2]" 42;
+IO_PORT "matrix_ser_b[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_b[1]" 54;
+IO_PORT "matrix_ser_b[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_b[0]" 69;
+IO_PORT "matrix_ser_b[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_g[4]" 33;
+IO_PORT "matrix_ser_g[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_g[3]" 35;
+IO_PORT "matrix_ser_g[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_g[2]" 51;
+IO_PORT "matrix_ser_g[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_g[1]" 55;
+IO_PORT "matrix_ser_g[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_g[0]" 68;
+IO_PORT "matrix_ser_g[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_r[4]" 34;
+IO_PORT "matrix_ser_r[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_r[3]" 41;
+IO_PORT "matrix_ser_r[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_r[2]" 53;
+IO_PORT "matrix_ser_r[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_r[1]" 56;
+IO_PORT "matrix_ser_r[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_ser_r[0]" 57;
+IO_PORT "matrix_ser_r[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_rsclk" 26;
+IO_PORT "matrix_rsclk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "matrix_sclk" 25;
+IO_PORT "matrix_sclk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "miso" 49;
+IO_PORT "miso" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "mosi" 73;
+IO_PORT "mosi" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "cs_n" 75;
+IO_PORT "cs_n" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "sclk" 74;
+IO_PORT "sclk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "rst_n" 3;
+IO_PORT "rst_n" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
